@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="650.0" prefWidth="900.0" styleClass="background-general" stylesheets="@ListPersonsScreenStyle.css" xmlns="http://javafx.com/javafx/" xmlns:fx="http://javafx.com/fxml/1" fx:controller="isen.projet.main.Controller.ShowPersonsController">
+   <children>
+      <TableView fx:id="my_table" layoutX="350.0" layoutY="142.0" prefHeight="600.0" prefWidth="900.0" styleClass="my_table" stylesheets="@ListPersonsScreenStyle.css" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="id_person" prefWidth="49.60000765323639" text="ID" />
+          <TableColumn fx:id="lastname" prefWidth="101.5999984741211" text="Last Name" />
+            <TableColumn fx:id="firstname" prefWidth="104.00006103515625" text="First Name" />
+            <TableColumn fx:id="nickname" prefWidth="101.59991455078125" text="Nickname" />
+            <TableColumn fx:id="phonenumber" prefWidth="128.79998779296875" text="Phone Number" />
+            <TableColumn fx:id="address" prefWidth="140.80007934570312" text="Address" />
+            <TableColumn fx:id="emailaddress" prefWidth="162.4000244140625" text="Email Address" />
+            <TableColumn fx:id="birthday" prefWidth="121.5999755859375" text="Birth Date" />
+        </columns>
+      </TableView>
+      <Button fx:id="Quit450" layoutX="751.0" layoutY="606.0" mnemonicParsing="false" onAction="#quitPersonsList" prefHeight="40.0" prefWidth="300.0" text="QUIT" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="610.0" />
+      <Button fx:id="Back450" layoutX="100.0" layoutY="601.0" mnemonicParsing="false" onAction="#GoBackMainScreen" prefHeight="40.0" prefWidth="300.0" text="BACK" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="610.0" />
+      <Button fx:id="Export450" layoutX="300.0" layoutY="599.0" mnemonicParsing="false" onAction="#ExportDataToCSV" prefHeight="40.0" prefWidth="280.0" text="EXPORT" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="300.0" AnchorPane.topAnchor="610.0" />
+   </children>
+</AnchorPane>

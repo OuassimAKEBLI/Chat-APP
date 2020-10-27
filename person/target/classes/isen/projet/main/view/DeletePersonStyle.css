@@ -1,0 +1,47 @@
+.bodybg{
+	
+	-fx-background-image: url("background.png");
+	-fx-background-size: 100% 100%;
+}
+
+.button {
+	-fx-background-color: transparent;
+	-fx-border-radius: 12px;
+	-fx-font-weight: bold;
+	-fx-color: #1d1d1d;
+}
+
+.button:hover {
+	-fx-background-color: #ff7d08;
+	-fx-border-radius: 12px;
+	-fx-font-weight: bold;
+	-fx-color: #1d1d1d;
+}
+
+.button:pressed {
+	-fx-background-color: green;
+	-fx-border-radius: 12px;
+	-fx-font-weight: bold;
+	-fx-color: #1d1d1d;
+}
+
+#Back{
+	-fx-background-color: transparent;
+	-fx-border-radius: 12px;
+	-fx-font-weight: bold;
+	-fx-color: #1d1d1d;
+}
+
+#Back:hover {
+	-fx-background-color: #1d1d1d;
+	-fx-border-radius: 12px;
+	-fx-font-weight: bold;
+	-fx-color: #1d1d1d;
+}
+
+#Back:pressed {
+	-fx-background-color: green;
+	-fx-border-radius: 12px;
+	-fx-font-weight: bold;
+	-fx-color: #1d1d1d;
+}

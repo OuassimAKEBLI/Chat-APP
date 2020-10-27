@@ -1,0 +1,105 @@
+.bodybg{
+	
+	-fx-background-image: url("backgroundtwo.png");
+	-fx-background-size: 100% 100%;
+}
+
+
+#ListPersons{
+	-fx-background-color: Transparent;
+	-fx-border-radius: 12px;
+	-fx-background-image: url("ListPersons.png");
+	-fx-background-size: 100% 100%;
+	-fx-background-repeat: no-repeat;
+}
+
+#ListPersons:hover {
+	-fx-background-image: url("ListPersonsHover.png");
+	-fx-background-size: 100% 100%;
+	-fx-background-repeat: no-repeat;
+}
+
+#ListPersons:pressed {
+	-fx-background-image: url("ListPersonsHover.png");
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+	-fx-background-size: 95% 95%;
+}
+
+
+#AddPerson{
+	-fx-background-color: Transparent;
+	-fx-background-image: url("AddPerson.png");
+	-fx-background-size: 100% 100%;
+	-fx-background-repeat: no-repeat;
+}
+
+#AddPerson:hover{
+	-fx-background-image: url("AddPersonsHover.png");
+	-fx-background-size: 100% 100%;
+}
+
+#AddPerson:pressed{
+	-fx-background-image: url("AddPersonsHover.png");
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+	-fx-background-size: 95% 95%;
+}
+
+
+#DeletePerson{
+	-fx-background-color: Transparent;
+	-fx-background-image: url("DeletePerson.png");
+	-fx-background-size: 100% 100%;
+	-fx-background-repeat: no-repeat;
+}
+
+#DeletePerson:hover{
+	-fx-background-image: url("DeletePersonHover.png");
+	-fx-background-size: 100% 100%;
+}
+
+#DeletePerson:pressed{
+	-fx-background-image: url("DeletePerson.png");
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+	-fx-background-size: 95% 95%;
+}
+
+#Quit{
+	-fx-background-color: Transparent;
+	-fx-background-image: url("Quit.png");
+	-fx-background-size: 100% 100%;
+	-fx-background-repeat: no-repeat;
+}
+
+#Quit:hover{
+	-fx-background-image: url("QuitHover.png");
+	-fx-background-size: 100% 100%;
+}
+
+#Quit:pressed{
+	-fx-background-image: url("QuitHover.png");
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+	-fx-background-size: 95% 95%;
+}
+
+#UpdatePerson{
+	-fx-background-color: Transparent;
+	-fx-background-image: url("UpdatePerson.png");
+	-fx-background-size: 100% 100%;
+	-fx-background-repeat: no-repeat;
+}
+
+#UpdatePerson:hover{
+	-fx-background-image: url("UpdatePersonHover.png");
+	-fx-background-size: 100% 100%;
+}
+
+#UpdatePerson:pressed{
+	-fx-background-image: url("UpdatePersonHover.png");
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+	-fx-background-size: 95% 95%;
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="650.0" prefWidth="900.0" styleClass="bodybg" stylesheets="@DeletePersonStyle.css" xmlns="http://javafx.com/javafx/" xmlns:fx="http://javafx.com/fxml/1" fx:controller="isen.projet.main.Controller.DeletePersonController">
+   <children>
+      <TextField fx:id="GetID" layoutX="450.0" layoutY="312.0" prefWidth="200.0" />
+      <Label layoutX="202.0" layoutY="307.0" text="Person ID">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="Delete" layoutX="714.0" layoutY="312.0" mnemonicParsing="false" onAction="#deleteperson" prefWidth="100.0" text="Delete" AnchorPane.leftAnchor="700.0" />
+      <Button fx:id="Back" layoutX="140.0" layoutY="582.0" mnemonicParsing="false" onAction="#BackMainScreen" prefWidth="124.0" text="Back" />
+      <Button fx:id="Quit" layoutX="652.0" layoutY="582.0" mnemonicParsing="false" onAction="#Quit" prefWidth="124.0" text="Quit" />
+   </children>
+</AnchorPane>

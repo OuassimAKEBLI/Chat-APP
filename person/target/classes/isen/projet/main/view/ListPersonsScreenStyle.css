@@ -1,0 +1,129 @@
+.background-general {
+    -fx-background-color : black;
+}
+
+.background {
+    -fx-background-color: #1d1d1d;
+}
+
+#my_table .label {
+    -fx-font-size: 11pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: white;
+    -fx-opacity: 0.6;
+}
+
+#my_table .label-bright {
+    -fx-font-size: 11pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: white;
+    -fx-opacity: 1;
+}
+
+#my_table .label-header {
+    -fx-font-size: 32pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: white;
+    -fx-opacity: 1;
+}
+
+#my_table {
+    -fx-base: #1d1d1d;
+    -fx-control-inner-background: #1d1d1d;
+    -fx-background-color: #1d1d1d;
+    -fx-table-cell-border-color: transparent;
+    -fx-table-header-border-color: transparent;
+    -fx-padding: 5;
+}
+
+#my_table .column-header-background {
+    -fx-background-color: transparent;
+}
+
+#my_table .column-header, .table-view .filler {
+    -fx-size: 35;
+    -fx-border-width: 0 0 1 0;
+    -fx-background-color: transparent;
+    -fx-border-color: 
+        transparent
+        transparent
+        derive(-fx-base, 80%) 
+        transparent;
+    -fx-border-insets: 0 10 1 0;
+}
+
+#my_table .column-header .label {
+    -fx-font-size: 13pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: #ff7d08;
+    -fx-alignment: center-left;
+    -fx-opacity: 1;
+}
+
+#my_table:focused #my_table:filled:focused:selected {
+    -fx-background-color: -fx-focus-color;
+    
+}
+
+#Back450{
+	-fx-background-color: transparent;
+	-fx-border-radius: 12px;
+	-fx-font-weight: bold;
+	-fx-color: #1d1d1d;
+}
+
+#Back450:hover{
+	-fx-background-color: #ff7d08;
+	-fx-border-radius: 12px;
+	-fx-font-weight: bold;
+	-fx-color: #1d1d1d;
+}
+
+#Back450:pressed{
+	-fx-background-color: green;
+	-fx-border-radius: 12px;
+	-fx-font-weight: bold;
+	-fx-color: #1d1d1d;
+}
+
+#Quit450{
+	-fx-background-color: transparent;
+	-fx-border-radius: 12px;
+	-fx-font-weight: bold;
+	-fx-color: #1d1d1d;
+}
+
+#Quit450:hover{
+	-fx-background-color: #ff7d08;
+	-fx-border-radius: 12px;
+	-fx-font-weight: bold;
+	-fx-color: #1d1d1d;
+}
+
+#Quit450:pressed{
+	-fx-background-color: green;
+	-fx-border-radius: 12px;
+	-fx-font-weight: bold;
+	-fx-color: #1d1d1d;
+}
+
+#Export450{
+	-fx-background-color: transparent;
+	-fx-border-radius: 12px;
+	-fx-font-weight: bold;
+	-fx-color: #1d1d1d;
+}
+
+#Export450:hover{
+	-fx-background-color: #ff7d08;
+	-fx-border-radius: 12px;
+	-fx-font-weight: bold;
+	-fx-color: #1d1d1d;
+}
+
+#Export450:pressed{
+	-fx-background-color: green;
+	-fx-border-radius: 12px;
+	-fx-font-weight: bold;
+	-fx-color: #1d1d1d;
+}
